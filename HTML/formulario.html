@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
+</head>
+
+<body>
+  <!-- Action -> define para qual url sera enviado os dados, vazia envia para mesma 
+  Method -> define o metodo de envio, get ou post 
+  -->
+  <form action="#" method="get" enctype="multipart/form-data">
+    <h1>Digite seu Endereço: </h1>
+    <label>
+      Rua:
+      <input type="text" name="rua" autocomplete="street-address" placeholder="Digite sua rua"/>
+    </label>
+    
+    <label>
+      Numero:
+      <input type="number" autocomplete="address-line1" name="numero" placeholder="Digite o numero"/>
+    </label>
+    <label>
+      E-mail:
+      <input type="email" autocomplete="email" name="email" placeholder="Digite seu e-mail"/>
+    </label>
+    
+    <label>
+      Foto:
+      <input type="file" name="foto" placeholder="Selecione uma foto"/>
+    </label>
+
+    <button type="submit">Enviar dados</button>
+    <button type="reset">Limpar dados</button>
+
+
+  </form>
+
+</body>
+
+</html>
