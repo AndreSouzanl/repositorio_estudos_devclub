@@ -1,0 +1,21 @@
+.avo{
+  font-size: 16px;
+}
+
+.pai{
+  width: 50vw;
+  height: 50vh;
+  background-color: #0000ff;
+  color: #ffffff;
+  font-size:2em;
+}
+
+.filho{
+  width:50%;
+  height: 50%;
+  background-color: #ff0000;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+  font-size:2rem;
+}
