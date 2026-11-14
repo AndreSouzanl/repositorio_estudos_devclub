@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 .avo{
   font-size: 16px;
 }
@@ -19,3 +21,31 @@
   padding-top: 20px;
   font-size:2rem;
 }
+/* ---------------------------------------------------------------------------- 
+      ESTILIZANDO TEXTOS
+    */
+
+  h1{
+    color: #ff0000;
+    font-size: 4rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: 2px 2px 15px #ff00f0;
+  }
+
+  
+
+  p{
+    color: #00ff;
+    font-size: 1.9rem;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    line-height: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    text-transform: capitalize;
+  
+  }
