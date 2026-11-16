@@ -35,8 +35,6 @@
     text-shadow: 2px 2px 15px #ff00f0;
   }
 
-  
-
   p{
     color: #00ff;
     font-size: 1.9rem;
@@ -49,3 +47,25 @@
     text-transform: capitalize;
   
   }
+  /* ----------------------------------------------------------------------
+  Padding e Margin
+   */
+
+  .box {
+    width: 50%;
+    height: 50%;
+    background-color: #ff1493;
+    padding: 20px;
+    
+    margin: 10px 15px 20px 25px;
+         /* 12h  15h  18h  21h */
+  }
+
+  .box-2{
+    width: 50%;
+    height: 50%;
+    background-color: #9932cc;
+    margin: 20px;
+    padding: 20px;
+      
+  }j 
