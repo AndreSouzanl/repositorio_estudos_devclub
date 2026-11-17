@@ -47,7 +47,7 @@ header{
 }
 
 .conteudo img {
-    margin: 20px 0 0 121px;
+    margin: 163px 0 0 121px;
     display: inline-block;
 }
 
@@ -60,7 +60,6 @@ header{
 
 .conteudo h1{
   width: 582px;
-  margin-top:163px;
   font-size: 62px;
   line-height: 82px;
   font-weight:700;
@@ -74,8 +73,6 @@ header{
   font-size: 18px;
   line-height:33px;
   letter-spacing:0.5px;
-  /* margin-top: 553px;
-  margin-left:801px */
   margin-bottom: 55px;
   margin-top:47px;
   text-align: justify;

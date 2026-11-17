@@ -4,58 +4,351 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Site Pessoal</title>
+
+  <meta name="description"
+    content="Conheça André Luiz de Souza, estudante e desenvolvedor de software apaixonado por tecnologia e desenvolvimento web.">
+
+  <title>André Luiz | Desenvolvedor de Software</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js" defer></script>
 </head>
 
 <body>
-  <header>
-    <h1>Olá, eu sou o André!</h1>
+
+  <button id="voltarTopo" aria-label="Voltar ao topo" title="Voltar ao topo">
+    ↑
+  </button>
+
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">André<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="menu">
+        <a href="#sobre">Sobre mim</a>
+        <a href="#metas">Minhas metas</a>
+        <a href="#contato">Contato</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#projetos">Projetos</a>
+      </nav>
+    </div>
   </header>
+
   <main>
-    <h2>Quem sou eu ?</h2>
-    <p>
-      Meu nome é André Luiz de Souza, tenho 49 anos e sou natural de Nova Lima, Minas Gerais. Sou formado em Análise e
-      Desenvolvimento de Sistemas e Desenvolvimento de Aplicativos Móveis, além de possuir pós-graduação em
-      Desenvolvimento de Sistemas com Python.
 
-      Sou apaixonado por tecnologia, programação e desenvolvimento web. Estou sempre em busca de novos conhecimentos,
-      explorando linguagens de programação, ferramentas e frameworks para aprimorar minhas habilidades e acompanhar a
-      constante evolução do mercado de tecnologia.
+    <section class="hero">
+      <div class="container hero-content">
 
-      Atualmente, estou desenvolvendo meu projeto pessoal, o ListaFácil, com previsão de lançamento ainda este ano. A
-      plataforma tem como objetivo ajudar as pessoas a organizarem suas listas de compras, tarefas e atividades do dia a
-      dia de maneira simples, prática e eficiente.
+        <div class="hero-text">
+          <span class="tag">DESENVOLVEDOR EM FORMAÇÃO</span>
 
-      Acredito que a tecnologia é uma poderosa ferramenta para transformar ideias em soluções que facilitam a vida das
-      pessoas. Por isso, sigo dedicado ao aprendizado contínuo, ao desenvolvimento de projetos próprios e à construção
-      da minha trajetória como desenvolvedor de software.
-    </p>
+          <h1>Olá, eu sou o <span>André!</span></h1>
 
-    <h2>Minhas Metas para este ano: </h2>
-    <ul>
-      <li>Estudar HTML, CSS e JavaScript</li>
-      <li>Concluir meu projeto pessoal listaFacil</li>
-      <li>Participar de hackathons e competições de programação</li>
-      <li>Ganhar meus primeiros reais com freelancing</li>
-      <li>Contruir um portfólio profissional</li>
-      <li>Publicar meu primeiro artigo sobre programação</li>
-    </ul>
+          <p>
+            Apaixonado por tecnologia, programação
+            e desenvolvimento web. Transformando
+            ideias em soluções digitais.
+          </p>
 
-    <a href="https://www.linkedin.com/in/andre-luiz-de-souza-b9574927b/" target="_blank" rel="noopener noreferrer">Meu
-      Linkedin</a>
+          <a href="#sobre" class="btn">
+            Conheça minha história
+          </a>
+        </div>
 
-    <h2>Pessoas que eu gostaria que estivessem no Devclub</h2>
-    <ol>
-      <li>Rosangela</li>
-      <li>Rosilaine</li>
-      <li>Claudia</li>
-      <li>Rafael</li>
-      <li>Vinicius</li>
-    </ol>
-    <figure>
-      <img src="./img/Andre.png" alt="foto do Andre de perfil">
-    </figure>
+        <div class="hero-image">
+          <img src="./img/Andre.png" alt="Foto de perfil de André Luiz de Souza">
+        </div>
+
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container">
+
+        <span class="tag">MINHA HISTÓRIA</span>
+
+        <h2>Quem sou eu?</h2>
+
+        <div class="about-text">
+          <p>
+            Meu nome é André Luiz de Souza, tenho 49 anos
+            e sou natural de Nova Lima, Minas Gerais.
+            Sou formado em Análise e Desenvolvimento de
+            Sistemas e Desenvolvimento de Aplicativos
+            Móveis, além de possuir pós-graduação em
+            Desenvolvimento de Sistemas com Python.
+          </p>
+
+          <p>
+            Sou apaixonado por tecnologia, programação
+            e desenvolvimento web. Estou sempre em busca
+            de novos conhecimentos, explorando linguagens
+            de programação, ferramentas e frameworks
+            para aprimorar minhas habilidades.
+          </p>
+
+          <p>
+            Atualmente, estou desenvolvendo meu projeto
+            pessoal, o <strong>ListaFácil</strong>, com
+            previsão de lançamento ainda este ano.
+            A plataforma tem como objetivo ajudar as
+            pessoas a organizarem suas listas de compras,
+            tarefas e atividades do dia a dia.
+          </p>
+
+          <p>
+            Acredito que a tecnologia é uma poderosa
+            ferramenta para transformar ideias em
+            soluções que facilitam a vida das pessoas.
+            Por isso, sigo dedicado ao aprendizado
+            contínuo e à construção da minha trajetória
+            como desenvolvedor de software.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="tecnologias" class="section technologies">
+
+      <div class="container">
+
+        <span class="tag">FERRAMENTAS E CONHECIMENTOS</span>
+
+        <h2>Tecnologias que utilizo</h2>
+
+        <p class="technologies-description">
+          Tecnologias e ferramentas que fazem parte
+          da minha jornada no desenvolvimento de software.
+        </p>
+
+        <div class="technologies-grid">
+
+          <article class="tech-card">
+            <span class="tech-icon">🌐</span>
+            <h3>HTML5</h3>
+            <p>Estruturação de páginas web.</p>
+          </article>
+
+          <article class="tech-card">
+            <span class="tech-icon">🎨</span>
+            <h3>CSS3</h3>
+            <p>Estilização e layouts responsivos.</p>
+          </article>
+
+          <article class="tech-card">
+            <span class="tech-icon">⚡</span>
+            <h3>JavaScript</h3>
+            <p>Interatividade e funcionalidades web.</p>
+          </article>
+
+          <article class="tech-card">
+            <span class="tech-icon">🐍</span>
+            <h3>Python</h3>
+            <p>Lógica e desenvolvimento de aplicações.</p>
+          </article>
+
+          <article class="tech-card">
+            <span class="tech-icon">🚀</span>
+            <h3>Django</h3>
+            <p>Desenvolvimento web com Python.</p>
+          </article>
+
+          <article class="tech-card">
+            <span class="tech-icon">⚛️</span>
+            <h3>React</h3>
+            <p>Desenvolvimento de interfaces.</p>
+          </article>
+
+          <article class="tech-card">
+            <span class="tech-icon">▲</span>
+            <h3>Next.js</h3>
+            <p>Aplicações web modernas.</p>
+          </article>
+
+          <article class="tech-card">
+            <span class="tech-icon">🐙</span>
+            <h3>Git / GitHub</h3>
+            <p>Versionamento e gerenciamento de código.</p>
+          </article>
+
+          <article class="tech-card">
+            <span class="tech-icon">🗄️</span>
+            <h3>PostgreSQL</h3>
+            <p>Banco de dados relacional.</p>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section id="projetos" class="section projects">
+
+      <div class="container">
+
+        <span class="tag">MEU TRABALHO</span>
+
+        <h2>Projetos em destaque</h2>
+
+        <p class="projects-description">
+          Alguns projetos que representam minha jornada
+          no desenvolvimento de software.
+        </p>
+
+        <div class="projects-grid">
+
+          <article class="project-card">
+
+            <div class="project-header">
+              <span class="project-symbol">LF</span>
+              <span class="project-status">Em desenvolvimento</span>
+            </div>
+
+            <h3>ListaFácil</h3>
+
+            <p>
+              Plataforma para organizar listas de compras,
+              tarefas e atividades do dia a dia de maneira
+              simples e prática.
+            </p>
+
+            <div class="project-technologies">
+              <span>Python</span>
+              <span>Django</span>
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+
+            <a href="#" class="project-link">
+              Em breve
+            </a>
+        </article>
+
+          <article class="project-card">
+
+            <div class="project-header">
+              <span class="project-symbol">BR</span>
+              <span class="project-status">Publicado</span>
+            </div>
+
+            <h3>BrasilKit</h3>
+
+            <p>
+              Biblioteca Python com ferramentas e
+              funcionalidades utilitárias para facilitar
+              tarefas comuns no desenvolvimento.
+            </p>
+
+            <div class="project-technologies">
+              <span>Python</span>
+              <span>PyPI</span>
+              <span>GitHub</span>
+            </div>
+
+            <a href="https://pypi.org/project/brasilkit/" target="_blank" rel="noopener noreferrer"
+              class="project-link">
+              Conhecer projeto →
+            </a>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <section id="metas" class="section goals">
+      <div class="container">
+
+        <span class="tag">MEU DESENVOLVIMENTO</span>
+
+        <h2>Minhas metas para este ano</h2>
+
+        <div class="goals-grid">
+
+          <article class="goal-card">
+            <span>01</span>
+            <h3>Aprendizado</h3>
+            <p>Estudar HTML, CSS e JavaScript.</p>
+          </article>
+
+          <article class="goal-card">
+            <span>02</span>
+            <h3>Projeto pessoal</h3>
+            <p>Concluir e publicar o ListaFácil.</p>
+          </article>
+
+          <article class="goal-card">
+            <span>03</span>
+            <h3>Experiência</h3>
+            <p>Participar de hackathons e competições de programação.</p>
+          </article>
+
+          <article class="goal-card">
+            <span>04</span>
+            <h3>Freelancing</h3>
+            <p>Conquistar meus primeiros trabalhos como freelancer.</p>
+          </article>
+
+          <article class="goal-card">
+            <span>05</span>
+            <h3>Portfólio</h3>
+            <p>Construir um portfólio profissional.</p>
+          </article>
+
+          <article class="goal-card">
+            <span>06</span>
+            <h3>Compartilhar</h3>
+            <p>Publicar meu primeiro artigo sobre programação.</p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+   
+    <section id="contato" class="contact">
+      <div class="container">
+
+        <h2>Vamos nos conectar?</h2>
+
+        <p>
+          Estou aberto a novas conexões,
+          oportunidades e experiências.
+        </p>
+
+        <a href="https://www.linkedin.com/in/andre-luiz-de-souza-b9574927b/" target="_blank" rel="noopener noreferrer"
+          class="btn">
+          Meu LinkedIn
+        </a>
+        <a href="https://wa.me/5531984055730" target="_blank" rel="noopener noreferrer"
+          class="btn">
+          Meu Whatsapp
+        </a>
+
+      </div>
+    </section>
+
   </main>
+
+  <footer>
+    <p>© 2026 André Luiz de Souza. Todos os direitos reservados.</p>
+    <p>Desenvolvido com dedicação e tecnologia.</p>
+  </footer>
+
 </body>
 
 </html>
